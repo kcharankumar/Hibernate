@@ -1,0 +1,26 @@
+1. Open jEE perspective.
+2. Create a new dynamic web project.
+3. Download settings.xml from git and copy it in the project.
+4. Locate maven settings.xml from location windows --> preferences--> Maven --> User settings.
+5. Copy settings.xml in the user settings directory.
+6. Download pom.xml from git and copy it in the project.
+7. Add JDK path at Window --> Preferences --> Java --> INstalled Jres.  
+Click on the checkbox of added jdk.
+8. Right click on pom.xml --> Run As --> Maven Test ... Let it download all the jar files.
+9. Right click on project --> Configure --> Convert to Maven project.  If you are getting
+   an error then delete repository directory and repeat the step 8.
+10. Close the current project.
+11. Create a new maven project. --> Click on Create a simple project.
+12. Provide same name to GroupID and ArtifactID and click on finish.
+13. Right click on project --> Maven --> Update project.
+14. Right click on project --> Run as --> Maven build --> RUn configuration and enter build in goal edit field.
+15. Download HIbernateMavenSave_Validator.zip from git.
+16. Copy the com folder from HIbernateMavenSave_Validator\HibernateMaven\src\main\java to src directory of eclipse.
+17. Copy Hibernate.cfg from HIbernateMavenSave_Validator\HibernateMaven\src\main\resources into the src directory of eclipse.
+18. Open AppMain.java and run. Project will run.
+19. Create a Maven Project --> Provide same groupid and artifact id and click on finish.
+20. Copy com to src/main/java directory. Copy the com folder from HIbernateMavenSave_Validator\HibernateMaven\src\main\java.
+21. Copy Hibernate.cfg from HIbernateMavenSave_Validator\HibernateMaven\src\main\resources into the src/main/resources directory in eclipse.
+22. Copy POM.xml from Hibernate-master\Hibernate-master\HIbernateMavenSave_Validator to project main directory of eclipse.
+23. Modify the group id and artifact id in pom.xml as per your project.
+24. Run AppMain.java
